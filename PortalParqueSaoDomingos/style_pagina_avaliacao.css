@@ -1,0 +1,56 @@
+/* Bem-Vindo ao style CSS da página de Avaliação Concluída do meu site! */ 
+
+/* GERAIS */ 
+body {
+    margin: 0px;
+    font-family: Lato Regular;
+}
+body ::selection {
+    background-color:#acc2ff;
+}
+sup {
+    font-size: 15px;
+}
+@font-face {
+    font-family: Lato Lig;
+    src: url(../Portal\ Parque\ São\ Domingos/Lato-Light);
+}
+@font-face {
+    font-family: Lato Regular;
+    src: url(..//Lato/Lato-Regular.ttf);
+}
+
+/* Imagem */ 
+img {
+    position: relative;
+    left: 515px;
+    top: 50px;
+    width: 350px;
+    height: 350px;
+}
+
+/* Textos */ 
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+h2 {
+    text-align: center;
+    font-family: Lato Lig;
+}
+
+/* Botão */ 
+button {
+    background-color: #52cf4f;
+    border: 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    margin-left: 590px;
+    font-size: medium;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

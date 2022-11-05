@@ -1,0 +1,350 @@
+/* Bem-Vindos ao documento style CSS da página de destaques do meu site! */
+
+/* GERAIS */ 
+body {
+    margin: 0px;
+    font-family: Lato Lig;
+}
+body ::selection {
+    background-color:#acc2ff;
+}
+sup {
+    font-size: 15px;
+}
+@font-face {
+    font-family: Lato Lig;
+    src: url(../PortalParqueSaoDomingos/Lato/Lato-Light.ttf);
+}
+@font-face {
+    font-family: Lato Regular;
+    src: url(../PortalParqueSaoDomingos/Lato/Lato-Regular.ttf);
+}
+a:visited {
+    color: #4378FF;
+}
+a {
+    text-decoration: none;
+    color: #4378FF;
+}
+#tópicos1 :link {
+    color:#4378FF;
+}
+#menu a:visited {
+    color: white;
+}
+#destaque a{
+    color: white;
+}
+
+/* MENU INICIAL */ 
+#menu {
+    border-collapse: collapse;
+    background-color: #7dea88;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    font-family: Lato Regular;
+}
+#destaque {
+    border-bottom: #4378FF 3px solid;
+}
+#imagemarvore {
+    width: 100px;
+    height: 100px;
+}
+.abas:hover {
+    border-bottom: #4378FF 3px solid;
+    transition: 0.3s;
+}
+#título {
+    text-align: left;
+    color: white;
+    font-size: 55px;
+    line-height: 35px;
+    padding-bottom: 30px;
+    font-family: Lato Lig;
+}
+#portal {
+    font-size: 27px;
+}
+.abas {
+    width: 341px;
+    background-color: #52cf4f;
+    text-align: center;
+    height: 30px;
+    font-size:x-large;
+}
+
+/* Tópicos */ 
+#tópicos {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    line-height: 10px;
+    font-family: Lato Regular;
+    margin-top: 170px;
+}
+#tópicos1 {
+    font-size: 27px;
+    margin-top: 10px;
+}
+#tópicos2 {
+    width: 1267px;
+    text-align: center;
+    font-size: 25px;
+    color: #4378FF;
+}
+
+/* INTRODUÇÃO */ 
+#destaques2 {
+    display: inline-block;
+    width: 600px;
+    font-size: 26px;
+    margin-left: 45px;
+    vertical-align: top;
+    margin-top: 45px;
+    line-height: 35px;
+}
+#destaques3 {
+    display: inline-block;
+    margin-right: 45px;
+    margin-left: 150px;
+    border: #4378FF solid 2px;
+    height: 325px;
+    margin-top: 45px;
+}
+#destaques4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* COMÉRCIO */ 
+#comércio {
+    font-size: 30px;
+    width: 250px;
+    border-bottom: #52cf4f 5px solid;
+    text-align: right;
+}
+.comércio2 {
+    font-weight: bold;
+    font-size: 26px;
+}
+#comércio1 {
+    width: 800px;
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 45px;
+}
+#comércio3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 70px;
+    width: 400px;
+}
+.comércio4 {
+    border: #4378FF 2px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 347px;
+    height: 204px;
+}
+.comércio5 {
+    width: 800px;
+    font-size: 26px;
+    font-family: Lato Regular;
+    margin-left: 45px;
+    margin-top: 45px;
+    float: left;
+}
+#comércio7 {
+    border: #4378FF 2px solid;
+    margin-left: 70px;
+    width: 347px;
+    height: 204px;
+}
+.comércio8 {
+    display: inline-block;
+    border: #4378FF 2px solid;
+    margin-left:59px;
+    margin-top: 20px;
+    margin-right: 15px;
+    width: 347px;
+    height: 204px;
+}
+.comércio9 {
+    font-size: 24px;
+}
+#comércio9 {
+    width: 750px;
+    font-size: 26px;
+    font-family: Lato Regular;
+    margin-left: 45px;
+    margin-top: 80px;
+    float: left;
+}
+#comércio10 {
+    border: #4378FF 2px solid;
+    margin-left: 79px;
+    margin-top: 30px;
+    width: 347px;
+    height: 204px;
+}
+iframe {
+    margin-top: 100px;
+    margin-left: 400px;
+    border: #4378FF 2px solid;
+}
+
+/* LAZER E OUTROS */
+#lazer1 {
+    width: 500px;
+    border-bottom: #52cf4f solid 5px;
+    margin-top: 100px;
+    text-align: right;
+    font-size: 30px;
+}
+.imagens1 {
+    border: #4378FF 2px solid;
+    display:inline-block;
+    margin-bottom: 30px;
+    margin-left: 45px;
+    width: 370px;
+    height: 250px;
+}
+.lazer2 {
+    font-size: 24px;
+    display: inline-block;
+    width: 800px;
+    vertical-align: top;
+}
+.lazer3 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+/* MOBILIDADE */
+#mobilidade {
+    width: 500px;
+    border-bottom: #52cf4f solid 5px;
+    margin-top: 30px;
+    text-align: right;
+    font-size: 30px;
+}
+#mobilidade1 {
+    margin-left: 45px;
+    font-size: 26px;
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+}
+#mobilidade2 {
+    font-size: 24px;
+    width: 800px;
+    vertical-align: top;
+}
+.mobilidade3 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 50px;
+}
+#mobilidade4 {
+    width: 370px;
+    display: inline-block;
+}
+.mobilidade5 {
+    margin-left: 100px;
+    border: #4378FF 2px solid;
+    display:inline-block;
+    margin-bottom: 20px;
+    width: 347px;
+    height: 204px;
+}
+#mobilidade6 {
+    margin-left: 45px;
+    font-size: 30px;
+}
+.mobilidade7 {
+    width: 1500px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Lato Regular;
+}
+.mobilidade8 {
+    margin-left: 55px;
+    margin-right: 40px;
+    border: #4378FF 2px solid;
+    width: 347px;
+    height: 300px;
+}
+#mobilidade9 {
+    margin-left: 70px;
+    width: 320px;
+    height: 90px;
+}
+
+/* RODAPÉ */ 
+#rodape {
+    background-color: #63C661;
+    height: 650px;
+    margin-top: 50px;
+}
+#títulorodape {
+    color: white;
+    font-size: 45px;
+    line-height: 30px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    right: 60px;
+    font-family: Lato Regular;
+}
+#imagemarvorerodape, #figure {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+#portal {
+    font-size: 24px;
+}
+#mapadosite {
+    margin-left: 180px;
+    width: 1000px;
+    color: white;
+    font-size: 20px;
+    border-spacing: 25px;
+    position: relative;
+    bottom: 40px;
+    margin-top: 50px;
+}
+#mapalinha {
+    text-align: right;
+    width: 250px;
+    border-bottom: 2px solid #3E4653;
+}
+#linhalinks {
+    text-align: right;
+    width: 250px;
+}
+#redes {
+    color: white;
+    margin-left: 180px;
+    font-size: 24px;
+    width: 980px;
+    text-align: center;
+}
+#siga {
+    border-bottom: #3E4653 solid 2px;
+}
+#rights {
+    text-align: center;
+    margin-top: 40px;
+}
+#imagemredes {
+    height: 90px;
+    width: 105px;
+}
+#mapadosite a {
+    color: white;
+}

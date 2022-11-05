@@ -1,0 +1,299 @@
+/* Bem-Vindos ao documento style CSS da página inicial do meu site! */
+
+/* GERAIS */ 
+body {
+    margin: 0px;
+    font-family: Lato Lig;
+}
+body ::selection {
+    background-color:#acc2ff;
+}
+sup {
+    font-size: 15px;
+}
+@font-face {
+    font-family: Lato Lig;
+    src: url(../PortalParqueSaoDomingos/Lato/Lato-Light.ttf);
+}
+@font-face {
+    font-family: Lato Regular;
+    src: url(../PortalParqueSaoDomingos/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Glory;
+    src: url(Glory/Glory-VariableFont_wght.ttf)
+}
+#menu a:visited {
+    color: white;
+}
+#menu :link {
+    color: white;
+}
+#container a:visited {
+    color: #4378FF;
+}
+a {
+    text-decoration: none;
+    color: #4378FF;
+}
+
+/* MENU INICIAL */ 
+#menu {
+    border-collapse: collapse;
+    background-color: #7dea88;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    font-family: Lato Regular;
+}
+#iconearvore {
+    width:100px;
+    height:100px;
+}
+#titulomenu {
+    text-align: left;
+    color: white;
+    font-size: 55px;
+    line-height: 35px;
+    padding-bottom: 30px;
+    font-family: Lato Lig;
+}
+#portal {
+    font-size: 27px;
+}
+.abas {
+    width: 341px;
+    background-color: #52cf4f;
+    text-align: center;
+    height: 30px;
+    font-size:x-large;
+}
+.abas:hover {
+    border-bottom: #4378FF 3px solid;
+    transition: 0.3s;
+}
+#inicial {
+    border-bottom: #4378FF 3px solid;
+}
+
+/* TÓPICOS SOBRE A PÁGINA */ 
+#tópicos {
+    margin-top: 170px;
+    margin-left: 40px;
+    line-height: 10px;
+    font-family: Lato Regular;
+}
+#tópicos1 {
+    font-size: 27px;
+}
+#tópicos2 {
+    width: 1267px;
+    text-align: center;
+    font-size: 25px;
+}
+#tópicos2 a {
+    color: #4378FF;
+}
+
+/* SOBRE O BAIRRO */ 
+#sobreobairro1 {
+    margin-top: 75px;
+    font-size: 30px;
+    width: 250px;
+    border-bottom: #52cf4f 5px solid;
+    text-align: right;
+}
+#sobreobairro2 {
+    margin-left: 40px;
+    width: 625px;
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+#sobreobairro3 {
+    display: inline-block;
+    margin-left: 125px;
+    vertical-align: top;
+    height: 350px;
+    border: #4378FF 2px solid;
+}
+#imagemparque {
+    width: 100%;
+    height:150px;
+}
+figure {
+    margin: 0px;
+}
+
+/* HISTÓRIA */ 
+#história1 {
+    width: 300px;
+    border-bottom:#52cf4f 5px solid;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 40px;
+    float: right;
+    margin-left: 1300px;
+}
+#história2 {
+    display: inline-block;
+    margin-left: 40px;
+    border:#4378FF solid 2px;
+    height: 300px;
+    width: 200px;
+}
+#história3 {
+    display: inline-block;
+    width: 1000px;
+    text-align: right;
+    font-size: 26px;
+    margin-left: 30px;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+/* CURIOSIDADES */ 
+#curiosidades {
+    width: 500px;
+    border-bottom: #52cf4f solid 5px;
+    margin-top: 55px;
+    text-align: right;
+    font-size: 30px;
+}
+.imagenscuriosas {
+    display: inline-block;
+    margin-right: 150px;
+    margin-left: 200px;
+    border: #4378FF solid 2px;
+    height: 250px;
+}
+.curiosidades1 {
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 50px;
+    font-size: 26px;
+}
+.curiosidades2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* AVALIAÇÃO */ 
+.avaliação {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: #52cf4f solid 5px;
+    margin-top: 40px;
+}
+#avaliação1 {
+    font-size: 26px;
+    text-align:center;
+    font-family: Lato Regular;
+}
+#avaliação2 {
+    line-height: 100px;
+}
+form {
+    font-family: Glory;
+    font-size: 28px;
+    margin-left: 420px;
+}
+input, textarea {
+    width: 500px;
+    height: 50px;
+    margin-bottom: 30px;
+    caret-color: #4378FF;
+}
+textarea {
+    height: 100px;
+}
+#relato {
+    vertical-align: top;
+}
+button {
+    width: 510px;
+    background-color:#52cf4f;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: medium;
+    padding: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4378FF;
+    transition: 0.3s;
+}
+textarea::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* RODAPÉ */ 
+#rodape {
+    background-color: #63C661;
+    height: 600px;
+    margin-top: 50px;
+}
+#títulorodape {
+    color: white;
+    font-size: 45px;
+    line-height: 30px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    font-family: Lato Regular;
+}
+#imagemarvorerodape, #figure {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+#portal {
+    font-size: 24px;
+}
+#mapadosite {
+    margin-left: 180px;
+    width: 1000px;
+    color: white;
+    font-size: 20px;
+    border-spacing: 25px;
+    position: relative;
+    bottom: 40px;
+    margin-top: 60px;
+}
+#mapalinha {
+    text-align: right;
+    width: 250px;
+    border-bottom: 2px solid #3E4653;
+}
+#linhalinks {
+    text-align: right;
+    width: 250px;
+}
+#redes {
+    color: white;
+    margin-left: 180px;
+    font-size: 24px;
+    width: 980px;
+    text-align: center;
+}
+#siga {
+    border-bottom: #3E4653 solid 2px;
+}
+#rights {
+    text-align: center;
+    margin-top: 30px;
+}
+#imagemredes {
+    height: 90px;
+    width: 105px;
+}
+footer a {
+    color: white;
+}
+

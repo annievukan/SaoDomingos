@@ -1,0 +1,216 @@
+/* Bem-Vindos ao documento style CSS da página de segurança do meu site! */
+
+/* GERAIS */ 
+body {
+    margin: 0px;
+    font-family: Lato Lig;
+}
+body ::selection {
+    background-color:#acc2ff;
+}
+sup {
+    font-size: 15px;
+}
+@font-face {
+    font-family: Lato Lig;
+    src: url(../PortalParqueSaoDomingos/Lato/Lato-Light.ttf);
+}
+@font-face {
+    font-family: Lato Regular;
+    src: url(../PortalParqueSaoDomingos/Lato/Lato-Regular.ttf);
+}
+a:visited {
+    color: #4378FF;
+}
+a {
+    text-decoration: none;
+    color: #4378FF;
+}
+#menu a:visited {
+    color: white;
+}
+#menu a {
+    color: white;
+}
+
+
+/* MENU INICIAL */ 
+#menu {
+    border-collapse: collapse;
+    background-color: #7dea88;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    font-family: Lato Regular;
+}
+#seg {
+    border-bottom: #4378FF 3px solid;
+}
+.abas:hover {
+    border-bottom: #4378FF 3px solid;
+    transition: 0.3s;
+}
+#título {
+    text-align: left;
+    color: white;
+    font-size: 55px;
+    line-height: 35px;
+    padding-bottom: 30px;
+    font-family: Lato Lig;
+}
+#imagemarvore {
+    width: 100px;
+    height: 100px;
+}
+#portal {
+    font-size: 27px;
+}
+.abas {
+    width: 341px;
+    background-color: #52cf4f;
+    text-align: center;
+    height: 30px;
+    font-size:x-large;
+}
+
+/* INÍCIO */
+#seguranca {
+    margin-left: 45px;
+    font-size: 26px;
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 170px;
+}
+#seguranca2 {
+    font-size: 24px;
+    width: 800px;
+    vertical-align: top;
+}
+.seguranca3 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 50px;
+}
+#seguranca4 {
+    width: 370px;
+    display: inline-block;
+    margin-top: 170px;
+}
+.seguranca5 {
+    margin-left: 100px;
+    border: #4378FF 2px solid;
+    display:inline-block;
+    margin-bottom: 20px;
+    width: 347px;
+    height: 204px;
+}
+#seguranca1 {
+    font-family: Lato Regular;
+}
+#introducproj {
+    font-size: 26px;
+    margin-left: 45px;
+}
+
+/* Projetos */
+#projetos {
+    width: 500px;
+    border-bottom: #52cf4f solid 5px;
+    margin-top: 30px;
+    text-align: right;
+    font-size: 30px;
+}
+#projetos1 {
+    display: inline-block;
+    width: 800px;
+    font-size: 26px;
+    margin-left: 45px;
+}
+.projetos2 {
+    font-family: Lato Regular;
+    font-size: 27px;
+}
+#projetos4 {
+    display:inline-block;
+    width: 347px;
+    vertical-align: top;
+}
+#projetos5 ~ li{
+    margin-top: 100px;
+}
+.projetos3 {
+    border: #4378FF 2px solid;
+    margin-left: 55px;
+    margin-bottom: 70px;
+    width: 347px;
+    height: 204px;
+}
+
+/* RODAPÉ */ 
+#rodape {
+    background-color: #63C661;
+    height: 650px;
+    margin-top: 50px;
+}
+#títulorodape {
+    color: white;
+    font-size: 45px;
+    line-height: 30px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    right: 60px;
+    font-family: Lato Regular;
+}
+#imagemarvorerodape, #figure {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+#portal {
+    font-size: 24px;
+}
+#mapadosite {
+    margin-left: 180px;
+    width: 1000px;
+    color: white;
+    font-size: 20px;
+    border-spacing: 25px;
+    position: relative;
+    bottom: 40px;
+    margin-top: 50px;
+}
+#mapalinha {
+    text-align: right;
+    width: 250px;
+    border-bottom: 2px solid #3E4653;
+}
+#linhalinks {
+    text-align: right;
+    width: 250px;
+}
+#redes {
+    color: white;
+    margin-left: 180px;
+    font-size: 24px;
+    width: 980px;
+    text-align: center;
+}
+#siga {
+    border-bottom: #3E4653 solid 2px;
+}
+#rights {
+    text-align: center;
+    margin-top: 40px;
+}
+#imagemredes {
+    height: 90px;
+    width: 105px;
+}
+#mapadosite a {
+    color: white;
+}
